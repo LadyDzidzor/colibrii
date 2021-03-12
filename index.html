@@ -14,43 +14,58 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/gresk.webflow.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/icomoon.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Gothic A1:regular,700,900"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  
-  <!-- <link href="images/Slice-2.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/Slice-2_1.png" rel="apple-touch-icon"> -->
+ 
 </head>
 <body class="body">
+  
   <div class="nav-wrapper">
     <div class="container navigation-bar">
+      <!-- <nav> -->
       <div class="logo">
         <a href="index.html" class="logo-block w-inline-block w--current">
         <img src="img/colibri-logo.svg" alt="">
       </a>
     </div>
-      <div class="navbar">
-        <div data-collapse="all" data-animation="default" data-duration="400" class="simple-nav w-nav">
-          <div class="menu-container w-container">
-            <nav role="navigation" class="simple-nav-link-holder w-nav-menu">
-              <a href="index.html" class="simple-link w-nav-link w--current">Home</a>
-              <a href="about.html" class="simple-link w-nav-link">About</a>
-              <a href="consulting-services.html" class="simple-link w-nav-link">Services</a>
-              <a href="blog.html" class="simple-link w-nav-link">Blog</a>
-              <a href="contact-us.html" class="simple-link w-nav-link">Contact</a></nav>
-            <div data-ix="shortend" class="simple-menu-button w-nav-button">
-              <div class="line-1 simple"></div>
-              <div class="line-2 simple"></div>
-              <div class="line-3 simple"></div>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Impact</a></li>
+          <div class="dropdown">
+          <li><a href="consulting-services.html">Services</a></li>
+          <div class="dropdown-content">
+            <li><a href="blog.html">One time service</a></li>
+            <li><a href="blog.html">Virtual Assistance service</a></li>
+            <li><a href="blog.html">Download our services Brochure</a></li>
+          </div>
+          </div>
+          <li><a href="blog.html">Blog</a></li>
+          <div class="dropdown">
+            <li><a href="contact-us.html">Contact</a></li>
+            <div class="dropdown-content">
+              <li><a href="faq.html">FAQ</a></li>
             </div>
           </div>
+
+    
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-      </div>
+      <!-- </nav> -->
+
     </div>
   </div>
+
   <div class="section">
     <div class="container flex-v">
-      <h1 class="hero-title">Outsourcing tasks the right way  <br>warrant tasks</h1>
+      <h1 class="hero-title">Outsourcing tasks <br>warrant tasks</h1>
     </div>
     <div class="container extended">
       <div class="col lg-12">
@@ -90,16 +105,16 @@
           <div class="title-3">Our Services</div>
         </div>
         <div class="col lg-4 xs-12 md-12 magin-bottom-large">
-          <h4 class="margin-bottom services-title">Business</h4>
-          <div class="services-list margin-bottom-large">Advanced Analytics<br>Agile<br>Change Management<br>Corporate Finance<br>Customer Strategy and Marketing<br>Digital World<br>Operations</div>
-          <h4 class="margin-bottom services-title">Startup</h4>
-          <div class="services-list">Customer Strategy and Marketing<br>Digital World<br>Operations<br>Advanced Analytics<br>Agile<br>Change Management<br>Corporate Finance</div>
+          <h4 class="margin-bottom services-title">Content writing</h4>
+          <div class="services-list margin-bottom-large">Articles<br>Social media posts<br>Blog posts<br>Buying guides/Catalogue<br>Product description<br>Stories<br>Academic writing</div>
+          <!-- <h4 class="margin-bottom services-title">Research &amp; data collection</h4>
+          <div class="services-list">Market Research<br>Academic Research<br>Online Survey<br>Product catalogue enrichment<br>Sorting documents<br>Documents collection<br>Customer or prospects database</div> -->
         </div>
         <div class="col lg-4 xs-12 md-12">
-          <h4 class="margin-bottom services-title">Management</h4>
-          <div class="services-list margin-bottom-large">Information Technology<br>Merger &amp; Acquisition<br>Organization<br>Sustainability<br>Performance Improvement<br>Transformation<br>Strategy</div>
-          <h4 class="margin-bottom services-title">Corporation</h4>
-          <div class="services-list">Organization<br>Sustainability<br>Performance Improvement<br>Transformation<br>Strategy<br>Agile<br>Change Management<br></div>
+          <h4 class="margin-bottom services-title">Research &amp; data collection</h4>
+          <div class="services-list margin-bottom-large">Market Research<br>Academic Research<br>Online Survey<br>Product catalogue enrichment<br>Sorting documents<br>Customer or prospects database</div>
+          <!-- <h4 class="margin-bottom services-title">Corporation</h4>
+          <div class="services-list">Organization<br>Sustainability<br>Performance Improvement<br>Transformation<br>Strategy<br>Agile<br>Change Management<br></div> -->
         </div>
       </div>
     </div>
@@ -133,7 +148,7 @@
             <div>Digitally infused experiences that are easier and less expensive to sell and support</div>
           </div>
         </div>
-      </div> v1u0!2wBkQ[L
+      </div>
     </div>
   </div>
   <!-- <div class="section">
@@ -233,31 +248,34 @@
   <div class="section section-footer">
     <div class="container footer-top">
       <div class="col flow">
-        <div class="heading-beta margin-bottom">Let&#x27;s Talk</div>
-        <a href="mailto:info@colibri.africa" class="email-address">info@colibri.africa</a>
+        <div class="heading-beta margin-bottom">Let&#x27;s Talk</div><a href="mailto:info@colibri.africa"
+          class="email-address">info@colibri.africa</a>
       </div>
-      <div class="col sm-12"><img src="img/colibri-logo.svg" alt=""></div>
+      <div class="col sm-12"><img src="images/logo2.svg" alt=""></div>
     </div>
     <div class="container">
-      <!-- <div class="col flow">
-        <div>3552 Murphy Court, Building 77<br>Surabaya, East Java 60217</div>
-      </div> -->
+      <div class="col flow">
+        <h2>About</h2>
+        
+          <p style="color:white">
+            At Colibri, we take the burden off you and help you with <br> your 
+          digital repetitive tasks, delivering maximum quality so
+        that you can become more efficient and productive. <br>Outsource your digital tasks today.
+      </p>
+      
+      </div>
       <div class="col flex flex-width-700">
         <div class="footer-nav-block flex xs-12">
           <div class="footer-menu-list"><a href="#" class="footer-link-item">Contact Us</a></div>
-          <div class="footer-menu-list"><a href="#" class="footer-link-item">FAQ's</a></div>
-        
+          <div class="footer-menu-list"><a href="#" class="footer-link-item">FAQ</a></div>
+          <div class="footer-menu-list"><a href="#" class="footer-link-item">Impact</a></div>
+          <div class="footer-menu-list"><a href="#" class="footer-link-item">Download Services Brochure</a></div>
         </div>
         <div class="footer-nav-block flex xs-12">
-          <div class="footer-menu-list"><a href="#" class="footer-link-item">Blog</a></div>
-          <div class="footer-menu-list"><a href="#" class="footer-link-item">Services</a></div>
-      
-        </div>
-        <div class="footer-nav-block flex xs-12">
-          <div class="footer-menu-list"><a href="#" class="footer-link-item">Facebook</a></div>
+          <div class="footer-menu-list"><a href="#" class="footer-link-item">Linkedin</a></div>
           <div class="footer-menu-list"><a href="#" class="footer-link-item">Twitter</a></div>
           <div class="footer-menu-list"><a href="#" class="footer-link-item">Instagram</a></div>
-         
+          <div class="footer-menu-list"><a href="#" class="footer-link-item">Facebook</a></div>
         </div>
       </div>
     </div>
