@@ -146,7 +146,7 @@ h1{
 }
 
 .nav-links a {
-    color: rgb(30 53 86);
+    color: #457B9D;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -244,7 +244,7 @@ h1{
 
 body {
   font-family: 'Gothic A1', sans-serif;
-  color: #2b2b2b;
+  color: #1D3557;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -737,7 +737,7 @@ figcaption {
 }
 
 .heading-2 {
-  font-size: 36px;
+  font-size: 25px;
   line-height: 1.15;
 }
 
@@ -970,7 +970,7 @@ figcaption {
 
 .short-paragraph {
   max-width: 400px;
-  color: #585858;
+  color: #1d3557;
   font-size: 20px;
   line-height: 1.4;
 }
@@ -1035,7 +1035,7 @@ figcaption {
 
 .pre-title {
   margin-bottom: 8px;
-  color: #969696;
+  color: #457B9D;
   font-size: 14px;
   font-weight: 700;
 }
@@ -1060,12 +1060,12 @@ figcaption {
 
 .fat-paragraph.margin-top {
   margin-top: 24px;
-  color: #333;
+  color: #1d3557;
 }
 
 .fat-paragraph.margin-top {
   margin-top: 24px;
-  color: #333;
+  color: #1d3557;
 }
 
 .service-grid {
@@ -1326,7 +1326,7 @@ figcaption {
   right: auto;
   bottom: auto;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  color: #b2c7df;
+  color: #fa525d;
   font-size: 200px;
   line-height: 0.6;
   font-weight: 700;
