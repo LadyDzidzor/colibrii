@@ -1,10 +1,50 @@
+/* donate card section */
+/* Float four columns side by side */
+* {
+  box-sizing: border-box;
+}
+
+
+.card-column {
+  
+  width: 50%;
+  padding: 0 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+}
+
+
+/* line */
+
+
 .impact{
   color: #fff;
 }
 
+.impact-text{
+  margin: 91px;
+  
+}
 
 
-
+.image-text2{
+  margin:91px;
+}
 /* button */
 .hello{
 	text-align: center;
@@ -21,10 +61,11 @@
 	font-family:'Gothic', san-serif;
 	font-weight: 400;
 	color:#FFFFFF;
-	background-color: #3369ff;
+	/* background-color: #3369ff; */
 	box-shadow: inset 0 -0.6em 1em -0.35 rgba(0,0,0,0.17), inset 0.06em 2em -0.3em rgba(255,255,255,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
 	text-align: center;
-	position: relative;
+  position: relative;
+  background-color:#fa5d5b; color:#fff; margin:77px; width: 200px;
 }
 a.button7:active{
 	box-shadow: inset 0 0.6e, 2em -0.3em rgba(0,0,0,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
@@ -38,7 +79,7 @@ a.button7:active{
 }
 
 /* donate */
-.donate{
+/* .donate{
   color: #0073a4;
   text-align: center;
   text-transform: uppercase;
@@ -46,29 +87,13 @@ a.button7:active{
   width:54%;
   font-size: 20px;
   margin: 71px;
-}
-
-/* card */
-/* 
-*{
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 } */
 
-/* h1{
-  font-size: 2.5rem;
-  font-family: 'Montserrat';
-  font-weight: normal;
-  color: #444;
-  text-align: center;
-  margin: 2rem 0;
-} */
+
 
 .wrapper{
   width: 90%;
-  margin: 30px auto;
+  margin: 91px auto;
   max-width: 80rem;
 }
 
@@ -268,82 +293,46 @@ a.button7:active{
 
 /* social media */
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-a {
-    text-decoration: none;
-  
-}
-p > a:hover{
-    color: #d9d9d9;
-    text-decoration:  underline;
-}
 
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 62px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
-ul {
-    padding:0;
-    list-style: none;
+.fa:hover {
+    opacity: 0.7;
 }
-.footer-social-icons {
-    width: 350px;
-    display:block;
-    margin: 0 auto;
-}
-.social-icon {
-    color: #fff;
-}
-ul.social-icons {
-    margin-top: 10px;
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
-.social-icons a {
-    color: #fff;
-    text-decoration: none;
-}
+
 .fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
+  background: #3B5998;
+  color: white;
 }
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
+
 .fa-twitter {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-twitter:hover {
-    background-color: #00aced;
+  background: #55ACEE;
+  color: white;
 }
 
 
 .fa-linkedin {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-linkedin:hover {
-    background-color: #0073a4;
+  background: #007bb5;
+  color: white;
 }
 
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+  
 /* steps */
 .steps {
   background: #fa525d;
@@ -1302,7 +1291,7 @@ figcaption {
 }
 
 .section {
-  padding-top: 80px;
+  padding-top: 27px;
   padding-bottom: 80px;
 }
 
