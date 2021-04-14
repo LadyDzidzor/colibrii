@@ -47,7 +47,8 @@
 }
 /* button */
 .hello{
-	text-align: center;
+  text-align: center;
+  h;
 }
 
 
@@ -310,25 +311,25 @@ a.button7:active{
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #1e3556;;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #1e3556;;
   color: white;
 }
 
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #1e3556;;
   color: white;
 }
 
 
 
 .fa-instagram {
-  background: #125688;
+  background: #1e3556;;
   color: white;
 }
 
@@ -462,6 +463,7 @@ h1{
   text-align:justify;
   padding-left:20px;
   padding-right:20px;
+  color:#1e3556;
 }
 .faq-t{
   -moz-transform: rotate(-45deg);
@@ -765,7 +767,7 @@ figcaption {
 
 .container.extended.bg-accent.vertical-padding-large {
   padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .container.extended.bg-accent.vertical-padding-large.position-relative {
