@@ -1,3 +1,27 @@
+
+
+
+.service-header{
+  background-image: url('../img/40.jpeg');
+   margin-top: -60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.contact-section{
+
+  margin-top: -60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url('../img/26.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
 /* donate card section */
 /* Float four columns side by side */
 * {
