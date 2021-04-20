@@ -3,23 +3,30 @@
 	src: url(font/MYRIADPRO-REGULAR.OTF);
 	font-family: Myriad pro;
 } */
-
+/* 
 @font-face{
   src:url(font/GOTHIC.TTF);
   font-family: Gothic;
+} */
+
+@font-face{
+  src:url('font/century-gothic-font');
+  font-family: CenturyGothic;
 }
 
 @font-face{
-  src: url(font/Sifonn-Basic.ttf);
-  font-family:Sifonn-Basic;
+  src:url('font/Montserrat');
+  font-family: Montserrat;
 }
+
 
 .about-title{
   font-size: 40px;
  line-height: 36px;
   margin: 0 0 12px; 
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
+  color: #FA525D;
 }
 
 p{
@@ -29,12 +36,12 @@ p{
   margin: 0 0 10px; }
 
 h1 {
-  color: #2c2c2c;
+  color: #1D3557;
   font-size: 36px;
-  font-family: "Sifonn-Basic", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 36px;
   margin: 0 0 12px; 
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
 }
 
@@ -386,16 +393,16 @@ header {
 section.page-banner-section {
   padding: 338px 0 50px;
   
-  background: #111 url("../img/impact4.jpeg") center center no-repeat;
+  background: #111 url("../img/a10.jpg") center center no-repeat;
   background-size: cover;
  }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section {
-      background: #111 url("../img/impact4.jpeg") center center no-repeat;
+      background: #111 url("../img/a10.jpg") center center no-repeat;
       background-size: cover; } }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     section.page-banner-section {
-      background: #111 url("../img/impact4.jpeg") center center no-repeat;
+      background: #111 url("../img/a10.jpg") center center no-repeat;
       background-size: cover; } }
   section.page-banner-section .page-banner-box {
     padding: 140px 0 90px; }
@@ -413,8 +420,10 @@ section.services-block-section {
     text-align: left; }
     section.services-block-section .title-section p {
       margin-top: 40px;
-     font-family: 'Gothic', sans-serif;  
+     font-family: 'Montserrat', sans-serif;  
      text-align: justify;  
+     font-size: 18px;
+     color: #1D3557;
     }
   section.services-block-section .block-post {
     overflow: hidden;
@@ -435,11 +444,11 @@ section.services-block-section {
       align-items: center;
       justify-content: center; }
       section.services-block-section .block-post .block-content .inner-content p {
-        color: #404040;
+        color: #1D3557;
         margin-bottom: 0; 
-        font-family: 'Gothic', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: justify;
-        font-size: 14px;
+        font-size: 18px;
       }
       section.services-block-section .block-post .block-content .inner-content h2 {
         color: #fff; }
