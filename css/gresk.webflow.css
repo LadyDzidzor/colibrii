@@ -569,19 +569,19 @@ h1{
 
     
     
-    
-    /* .nav-links {
+  
+  .nav-links {
         position: fixed;
-        height: 92vh;
-        top: 8vh;
-        background-color: #5D4954;
+        height: 47vh;
+        top: 12vh;
+        background-color: #fff;
         display: hidden;
         flex-direction: column;
         align-items: center;
         width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-    } */
+    } 
     
     .nav-links li {
         opacity: 1;
