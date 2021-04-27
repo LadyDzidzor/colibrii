@@ -1798,6 +1798,9 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  width: 50%;
+ margin-left: 170px;
+ padding: 30px;
 }
 
 .margin-right {
