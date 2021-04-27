@@ -9,6 +9,7 @@
 }
 
 
+
 /* process */
 .process-title{
   font-family: 'Montserrat';
@@ -40,9 +41,9 @@
 
 /* donate card section */
 /* Float four columns side by side */
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 
 .card-column {
@@ -547,10 +548,10 @@ h1{
 }
 
 .burger div {
-    width: 25px;
+    width: 44px;
     height: 3px;
-    background-color: rgb(226, 226, 226);
-    margin: 5px;
+    background-color: #FA525D;
+    margin: 9px;
     transition: all 0.3s ease;
 }
 
@@ -561,26 +562,29 @@ h1{
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    .body {
         overflow-x: hidden;
+        width: 100vw;
     }
+
     
-    .nav-links {
+    
+    
+    /* .nav-links {
         position: fixed;
-        right: 0px;
         height: 92vh;
         top: 8vh;
         background-color: #5D4954;
-        display: flex;
+        display: hidden;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-    }
+    } */
     
     .nav-links li {
-        opacity: 0;
+        opacity: 1;
     }
     
     .burger {
@@ -590,7 +594,7 @@ h1{
 }
 
 .nav-active {
-        transform: translateX(0%);
+      transform: translateX(0%);
 }
 
 @keyframes navLinkFade {
@@ -619,6 +623,8 @@ h1{
 /* End of nav */
 
 
+
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -636,6 +642,8 @@ body {
   color: #1D3557;
   font-size: 18px;
   line-height: 1.5;
+  width: 100vw;
+  
 }
 
 h1 {
@@ -1289,7 +1297,7 @@ figcaption {
 }
 
 .body {
-  overflow: visible;
+  overflow-x: hidden;
   margin-top: 0px;
 }
 

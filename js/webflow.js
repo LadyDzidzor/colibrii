@@ -1,3 +1,6 @@
+
+
+
 function navSlide() {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
@@ -6,6 +9,7 @@ function navSlide() {
   burger.addEventListener("click", () => {
     //Toggle Nav
     nav.classList.toggle("nav-active");
+    document.getElementById("nav").style.display = block;
 
     //Animate Links
     navLinks.forEach((link, index) => {
