@@ -9,6 +9,7 @@
   font-family: Gothic;
 } */
 
+
 @font-face{
   src:url('font/century-gothic-font');
   font-family: CenturyGothic;
@@ -169,7 +170,7 @@ ul.slimmenu li ul {
 	z-index:10000;
 	left:10px;
 	top:10px;
-	background:url('../images/logos/ACE-it.png') no-repeat center center;
+	/* background:url('../images/logos/ACE-it.png') no-repeat center center; */
 	/* background-size:146px 80px; */
 	background-size:98px 95px;
 }
@@ -343,14 +344,14 @@ ul.slimmenu.collapsed li > ul {
 
 
 
-header {
+/* header {
   padding: 0 40px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: transparent;
-  z-index: 999999; }
+  z-index: 999999; } */
 
 .navbar {
   padding: 0;
