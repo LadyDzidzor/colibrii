@@ -8,8 +8,8 @@ function navSlide() {
 
   burger.addEventListener("click", () => {
     //Toggle Nav
-    nav.classList.toggle("nav-active");
-    document.getElementById("nav").style.display = block;
+    document.querySelector(".nav-links").classList.toggle("nav-active");
+    document.querySelector(".nav-links").style.display = 'block';
 
     //Animate Links
     navLinks.forEach((link, index) => {
